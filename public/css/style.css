@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.content {
+  overflow: scroll;
+  max-height: 800px
+  /* height:800px; */
+}
+
+.div-line {
+  border: 0;
+  margin-top: 20px;
+  margin-bottom:20px;
+  height: 1px;
+  background: #4BA0B5;
+  background-image: linear-gradient(to right, #ccc, #4BA0B5, #ccc);
+}
+
+#syntaxTree{
+  float:right;
+}

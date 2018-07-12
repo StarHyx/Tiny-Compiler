@@ -1,0 +1,34 @@
+extern int printf(string str);
+extern int puts(string str);
+struct test {
+    int a;
+    double b;
+    string c;
+};
+
+int main()
+{
+    int vint = 10000;
+    double vdouble = 3.1415926;
+    string vstring = "Hello World!";
+    struct test t;
+    t.a = 123;
+    t.b = 1.23;
+    t.c = "123";
+
+    printf("%d", vint);
+    puts("");
+    printf("%f", vdouble);
+    puts("");
+    puts(vstring);
+    puts("");
+    printf("%d", t.a);
+    puts("");
+    printf("%f", t.b);
+    puts("");
+    puts(t.c);
+    puts("");
+
+
+    return 0;
+}

@@ -1,0 +1,23 @@
+extern int printf(string str);
+extern int puts(string str);
+
+int add(int a, int b)
+{
+    int c;
+    c = a + b;
+    return c;
+}
+
+int main()
+{
+    int a = 100;
+    int b = 200;
+
+    int c;
+    c = add(a, b);
+
+    printf("%d", c);
+    puts("");
+    
+    return 0;
+}
